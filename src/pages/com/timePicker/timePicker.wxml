@@ -1,2 +1,3 @@
 <!--pages/com/timePicker/timePicker.wxml-->
-<text>pages/com/timePicker/timePicker.wxml</text>
+<view bindtap="select">选择时间</view>{{showTime.year}}年{{showTime.month}}月{{showTime.day}}日
+<timePicker id="timePicker" modal-data="{{timePickerData}}" bindsure="sure"/>

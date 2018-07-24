@@ -1,1 +1,74 @@
-/* components/timePicker/timePicker.wxss */
+/* pages/userInfo/components/timePicker/timePicker.wxss */
+/*.birthBox{*/
+/*background: #ccc;*/
+/*}*/
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.70);
+}
+
+.content{
+    height: 576rpx;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #ffffff;
+}
+.header{
+    width: 100%;
+    height: 90rpx;
+    background: #E3E3E4;
+    position: relative;
+}
+.cancel{
+    height: 90rpx;
+    line-height: 90rpx;
+    position: absolute;
+    left: 30rpx;
+    top: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 34rpx;
+    color: #999999;
+}
+.sure{
+    height: 90rpx;
+    line-height: 90rpx;
+    position: absolute;
+    right: 30rpx;
+    top: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 34rpx;
+    color: #FF4747;
+}
+.headerMsg{
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 36rpx;
+    color: #333333;
+    text-align: center;
+}
+.timeWrap{
+    width: 600rpx;
+    height: 450rpx;
+    margin: 18rpx auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+picker-view-column view{
+    text-align: center;
+    height: 90rpx !important;
+    line-height: 90rpx !important;
+}
+.cols{
+    height: 90rpx;
+    line-height: 90rpx;
+    /*transform: scale(2,2);*/
+}
