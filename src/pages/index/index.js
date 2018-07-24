@@ -50,5 +50,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+    timePicker:function () {
+        wx.navigateTo({
+          url: '../com/timePicker/timePicker'
+        })
+    }
 })
