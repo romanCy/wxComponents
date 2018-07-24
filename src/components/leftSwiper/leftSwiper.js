@@ -14,7 +14,7 @@ Component({
      * 组件的初始数据
      */
     data: {
-        startY:0,
+        startX:0,
         startY:0
     },
 
@@ -22,7 +22,6 @@ Component({
      * 组件的方法列表
      */
     methods: {
-        //手指触摸动作开始 记录起点X坐标
         touchstart: function (e) {
             //开始触摸时 重置所有删除
             this.data.modalData.items.forEach(function (v, i) {
