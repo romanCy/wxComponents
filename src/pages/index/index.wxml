@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
   <view class="timePicker" catchtap="timePicker">时间选择器</view>
+    <view class="leftSwiper" catchtap="leftSwiper">左滑组件带删除</view>
 </view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "leftSwiper":"../../../components/leftSwiper/leftSwiper"
+  }
+}

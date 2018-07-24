@@ -55,5 +55,10 @@ Page({
         wx.navigateTo({
           url: '../com/timePicker/timePicker'
         })
+    },
+    leftSwiper:function () {
+        wx.navigateTo({
+            url: '../com/leftSwiper/leftSwiper'
+        })
     }
 })

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/com/timePicker/timePicker"
+    "pages/com/timePicker/timePicker",
+    "pages/com/leftSwiper/leftSwiper"
   ],
   "window": {
     "backgroundTextStyle": "light",
