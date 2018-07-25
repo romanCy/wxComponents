@@ -1,0 +1,7 @@
+/* components/toast/toast.wxss */
+.wrap{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #cccccc;
+}

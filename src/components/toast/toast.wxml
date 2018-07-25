@@ -1,0 +1,4 @@
+<!--components/toast/toast.wxml-->
+<view class="wrap" wx:if="{{toastData.isShow}}" catchtap="tap">
+    <view class="msg">sssss</view>
+</view>
