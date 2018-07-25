@@ -1,0 +1,14 @@
+<!--components/modal/modal.wxml-->
+<view class="layer" catchtouchmove="nofn" catchtap="close" wx:if="{{modalData.isShow}}">
+    <view class="wrap">
+        <view class="title" wx:if="{{modalData.title}}">{{modalData.title}}</view>
+        <view class="content">
+            <view class="msg" wx:for="{{modalData.msg}}">{{item}}</view>
+        </view>
+        <view class="btns">
+            <view class="btn cancel" wx:if="{{modalData.cancel}}" catchtap="cancel">{{modalData.cancel}}</view>
+            <view class="btn sure {{modalData.cancel?'bor':''}}" catchtap="sure">{{modalData.sure||'确定'}}</view>
+        </view>
+    </view>
+</view>
+

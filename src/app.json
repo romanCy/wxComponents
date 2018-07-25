@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/com/timePicker/timePicker",
-    "pages/com/leftSwiper/leftSwiper"
+    "pages/com/leftSwiper/leftSwiper",
+    "pages/com/modal/modal"
   ],
   "window": {
     "backgroundTextStyle": "light",
