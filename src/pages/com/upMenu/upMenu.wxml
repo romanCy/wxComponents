@@ -1,0 +1,3 @@
+<!--pages/com/upMenu/upMenu.wxml-->
+<view catchtap="showMenu">上拉菜单</view>
+<upMenu upmenu-data="{{upmenuData}}" bindevone="_one" bindevtwo="_two" />

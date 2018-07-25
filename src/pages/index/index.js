@@ -60,5 +60,10 @@ Page({
         wx.navigateTo({
             url: '../com/keyboard/keyboard'
         })
+    },
+    goupMenu:function () {
+        wx.navigateTo({
+            url: '../com/upMenu/upMenu'
+        })
     }
 })

@@ -5,7 +5,8 @@
     "pages/com/timePicker/timePicker",
     "pages/com/leftSwiper/leftSwiper",
     "pages/com/modal/modal",
-    "pages/com/keyboard/keyboard"
+    "pages/com/keyboard/keyboard",
+    "pages/com/upMenu/upMenu"
   ],
   "window": {
     "backgroundTextStyle": "light",
