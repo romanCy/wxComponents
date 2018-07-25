@@ -1,4 +1,9 @@
 <!--components/toast/toast.wxml-->
-<view class="wrap" wx:if="{{toastData.isShow}}" catchtap="tap">
-    <view class="msg">sssss</view>
+
+<view class="wxapp-toast-content-box" wx:if="{{toastData.isShow}}">
+    <view class="wxapp-toast-content">
+        <view class="wxapp-toast-content-text">
+            {{toastData.msg}}
+        </view>
+    </view>
 </view>

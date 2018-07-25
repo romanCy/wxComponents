@@ -6,10 +6,8 @@ Component({
     properties: {
         toastData: {
             type: Object,
-            value: {
-                isShow:false
-            },
-            observer: 'ssss'
+            value: {},
+            observer: '_hideToast'
         }
 
     },
@@ -23,12 +21,19 @@ Component({
      * 组件的方法列表
      */
     methods: {
-        tap:function () {
-            this.setData({
-                toastData: {
-                    isShow:false
-                }
-            })
+        _hideToast:function () {
+            let self=this;
+            if(self.data.toastData.isShow==false){
+                return false;
+            }
+            console.log(this.data.toastData);
+            setTimeout(function () {
+                self.setData({
+                    toastData:{
+                        isShow:false
+                    }
+                })
+            },self.data.toastData.delay)
 
         }
     }

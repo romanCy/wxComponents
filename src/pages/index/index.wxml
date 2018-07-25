@@ -1,8 +1,16 @@
 <!--index.wxml-->
+<!--底部toast组件-->
 <import src="../../templates/wxToast/wxToast.wxml" />
+
+
 <view class="container">
   <view class="timePicker" catchtap="timePicker">时间选择器</view>
     <view class="leftSwiper" catchtap="leftSwiper">左滑组件带删除</view>
   <view class="leftSwiper" catchtap="toast">toast</view>
+  <view catchtap="observerToast">observer-toast</view>
 </view>
+
+<toast toastData="{{toastData}}" />
+
+<!--底部toast组件-->
 <template is="wxToast" data="{{isShowToast:isShowToast,toastText:toastText}}"></template>
