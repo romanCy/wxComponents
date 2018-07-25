@@ -1,0 +1,4 @@
+<!--pages/com/keyboard/keyboard.wxml-->
+<view catchtap="open">普通键盘</view>
+<view catchtap="openRom">随机键盘</view>
+<keyboard key-data="{{keyData}}"/>

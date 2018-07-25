@@ -1,0 +1,86 @@
+@import "../../app.wxss";
+
+.layer {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1502
+}
+
+.wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    /*height: 100rpx;*/
+    width: 100%;
+}
+
+.title {
+    position: relative;
+    height: 80rpx;
+    color: #000;
+    font-size: 30rpx;
+    text-align: center;
+    line-height: 80rpx;
+    background: #f7f7f7;
+    border-bottom: 1rpx solid #d9d9d9;
+}
+.numWrap{
+    width: 100%;
+    background: #f7f7f7;
+    height: 140rpx;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    height: 100rpx;
+    width: 100rpx;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textmsg{
+    width: 100%;
+    height: 66rpx;
+    line-height: 66rpx;
+    text-align: center;
+    color: #222;
+    font-size: 24rpx;
+    border-bottom: 1rpx solid #d9d9d9;
+    border-top: 1rpx solid #d9d9d9;
+}
+.keyWrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fot{
+    width: 100%;
+    display: flex;
+}
+.key,.cancel,.back{
+    width: 30%;
+    flex-grow: 1;
+    line-height: 100rpx;
+    height: 100rpx;
+    text-align: center;
+    color: #222;
+}
+.di{
+    height: 10rpx;
+    width: 10rpx;
+    border-radius: 50%;
+    background: #000000;
+}
+
+
+

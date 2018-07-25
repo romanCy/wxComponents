@@ -9,6 +9,7 @@
     <view class="leftSwiper" catchtap="toast">toast</view>
     <view catchtap="observerToast">observer-toast</view>
     <view catchtap="goModal">自定义弹窗</view>
+    <view catchtap="goKeyoard">自定义安全软键盘</view>
 </view>
 
 <toast toastData="{{toastData}}"/>

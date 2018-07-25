@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/com/timePicker/timePicker",
     "pages/com/leftSwiper/leftSwiper",
-    "pages/com/modal/modal"
+    "pages/com/modal/modal",
+    "pages/com/keyboard/keyboard"
   ],
   "window": {
     "backgroundTextStyle": "light",

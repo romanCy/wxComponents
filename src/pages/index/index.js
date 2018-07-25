@@ -55,5 +55,10 @@ Page({
         wx.navigateTo({
           url: '../com/modal/modal'
         })
+    },
+    goKeyoard:function () {
+        wx.navigateTo({
+            url: '../com/keyboard/keyboard'
+        })
     }
 })
