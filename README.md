@@ -5,4 +5,6 @@
 + 自定义modal （标题，内容，按钮可自定义） modal
 + 左滑删除菜单 leftSwiper
 + 安全软键盘 keyboard
++ 上拉菜单 upMenu
+
 
