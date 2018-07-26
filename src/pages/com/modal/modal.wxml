@@ -1,4 +1,4 @@
 <!--pages/com/modal/modal.wxml-->
 <view class="showModal" catchtap="showModal">showModal</view>
-<modal modalData="{{modalData}}" bindsure="sure" bindcancel="cancel" />
+<modal modal-data="{{modalData}}" bindsure="sure" bindcancel="cancel" />
 
