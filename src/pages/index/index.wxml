@@ -11,6 +11,7 @@
     <view catchtap="goModal">自定义弹窗</view>
     <view catchtap="goKeyoard">自定义安全软键盘</view>
     <view catchtap="goupMenu">上拉菜单</view>
+    <view catchtap="goTabs">自定义tabs</view>
 </view>
 
 <toast toastData="{{toastData}}"/>

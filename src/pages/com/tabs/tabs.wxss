@@ -1,0 +1,9 @@
+/* pages/com/tabs/tabs.wxss */
+.inputWrap{
+    position: fixed;
+    left: 0;
+    top: 300rpx;
+}
+.input{
+    border: 1rpx solid #000;
+}

@@ -1,0 +1,10 @@
+<!--components/tabs/tabs.wxml-->
+<view class="wrap">
+    <view class="content">
+        <scroll-view class="scrollWrap" style="width: 100%;" scroll-x="{{tabData.scrollType}}" >
+            <view class="itemsWrap {{tabData.scrollType==false?'start'+tabData.itemStart:''}}">
+                <view class="scrollItem  {{selectedId==idx?'selected':''}}" wx:for="{{tabData.list}}" wx:for-index="idx" data-id="{{idx}}" catchtap="selectItem">{{item}}</view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

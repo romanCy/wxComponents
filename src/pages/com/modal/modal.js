@@ -7,9 +7,10 @@ Page({
     data: {
         modalData: {
             isShow: true,
-            // title: "我是标题",
-            msg: ['woshi1', 'woshi2'],
-            cancel: '取消'
+            title: "我是标题",
+            msg: ['woshi1', 'woshi2','woshi2','woshi2'],
+            cancel: '取消',
+            sure:'sure'
         }
 
     },

@@ -6,7 +6,8 @@
     "pages/com/leftSwiper/leftSwiper",
     "pages/com/modal/modal",
     "pages/com/keyboard/keyboard",
-    "pages/com/upMenu/upMenu"
+    "pages/com/upMenu/upMenu",
+    "pages/com/tabs/tabs"
   ],
   "window": {
     "backgroundTextStyle": "light",

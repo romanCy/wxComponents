@@ -65,5 +65,10 @@ Page({
         wx.navigateTo({
             url: '../com/upMenu/upMenu'
         })
+    },
+    goTabs:function () {
+        wx.navigateTo({
+            url: '../com/tabs/tabs'
+        })
     }
 })
