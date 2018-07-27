@@ -11,9 +11,9 @@
 }
 image.active {
     transform: none;
-    transition: all 1s ease-in 0s;
+    transition: all 0.7s ease-in 0s;
 }
 image.quiet {
     transform: scale(0.8);
-    transition: all 1s ease-in 0s;
+    transition: all 0.7s ease-in 0s;
 }
