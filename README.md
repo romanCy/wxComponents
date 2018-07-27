@@ -8,3 +8,4 @@
 + 上拉菜单 upMenu
 + 自定义tab 可滑动 tabs
 + 头部下拉toast
++ 改良版swiper 
