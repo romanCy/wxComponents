@@ -8,7 +8,8 @@
     "pages/com/keyboard/keyboard",
     "pages/com/upMenu/upMenu",
     "pages/com/tabs/tabs",
-    "pages/com/headToast/headToast"
+    "pages/com/headToast/headToast",
+    "pages/com/activeSwiper/activeSwiper"
   ],
   "window": {
     "backgroundTextStyle": "light",

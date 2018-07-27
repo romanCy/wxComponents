@@ -75,5 +75,10 @@ Page({
     wx.navigateTo({
       url: '../com/headToast/headToast'
     })
+  },
+  goactiveSwiper:function () {
+    wx.navigateTo({
+      url: '../com/activeSwiper/activeSwiper'
+    })
   }
 })
