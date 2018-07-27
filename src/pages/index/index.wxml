@@ -12,6 +12,7 @@
     <view catchtap="goKeyoard">自定义安全软键盘</view>
     <view catchtap="goupMenu">上拉菜单</view>
     <view catchtap="goTabs">自定义tabs</view>
+    <view catchtap="goheadToast">顶部提示窗</view>
 </view>
 
 <toast toastData="{{toastData}}"/>

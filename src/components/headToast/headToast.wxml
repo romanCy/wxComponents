@@ -1,0 +1,4 @@
+<!--components/headToast/headToast.wxml-->
+<view class="wrap  {{toastData.isShow?'wuli-animate--slide-in-down':'wuli-animate--slide-out-up'}}"  wx:if="{{isShow}}">
+    <view class="content default">{{toastData.msg}}</view>
+</view>

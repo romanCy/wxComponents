@@ -7,7 +7,8 @@
     "pages/com/modal/modal",
     "pages/com/keyboard/keyboard",
     "pages/com/upMenu/upMenu",
-    "pages/com/tabs/tabs"
+    "pages/com/tabs/tabs",
+    "pages/com/headToast/headToast"
   ],
   "window": {
     "backgroundTextStyle": "light",
