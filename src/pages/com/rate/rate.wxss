@@ -1,1 +1,6 @@
 /* pages/com/rate/rate.wxss */
+.wrap{
+    position: fixed;
+    left: 100rpx;
+    top: 100rpx;
+}

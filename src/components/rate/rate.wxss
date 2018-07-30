@@ -1,1 +1,21 @@
 /* components/rate/rate.wxss */
+
+.wrap{
+    height: 100rpx;
+    width: 600rpx;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    border: 2rpx solid #000;
+}
+.rateItem{
+    height: 100rpx;
+    width: 100rpx;
+    display: inline-block;
+    margin-right: 20rpx;
+    background: #ccc;
+}
+.red{
+    background: red;
+}

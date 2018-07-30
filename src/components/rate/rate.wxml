@@ -1,2 +1,6 @@
 <!--components/rate/rate.wxml-->
-<text>components/rate/rate.wxml</text>
+<view class="wrap" id="the-id">
+    <view class="content" catchtouchmove="tm" catchtouchstart="tp">
+        <view class="rateItem {{idx<=selectCount?'red':''}}" wx:for-index="idx" wx:for="{{count}}"></view>
+    </view>
+</view>

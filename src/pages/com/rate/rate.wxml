@@ -1,2 +1,5 @@
-<!--pages/com/rate/rate.wxml-->
-<text>pages/com/rate/rate.wxml</text>
+<view class="wrap">
+    <rate />
+</view>
+
+
