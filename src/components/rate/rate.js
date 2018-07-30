@@ -23,7 +23,7 @@ Component({
    */
   methods: {
     tm:function (e) {
-      console.log(e.touches[0].clientX)
+      console.log(e)
       let clX=e.touches[0].clientX-this._left
       console.log(clX);
       console.log(clX/60)
