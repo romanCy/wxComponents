@@ -80,5 +80,10 @@ Page({
     wx.navigateTo({
       url: '../com/activeSwiper/activeSwiper'
     })
+  },
+  goRate:function () {
+    wx.navigateTo({
+      url: '../com/rate/rate'
+    })
   }
 })
