@@ -15,6 +15,7 @@
     <view catchtap="goheadToast">顶部提示窗</view>
     <view catchtap="goactiveSwiper">改良swiper</view>
     <view catchtap="goRate">五星评分</view>
+    <view catchtap="goNotice">通告栏</view>
 </view>
 
 <toast toastData="{{toastData}}"/>

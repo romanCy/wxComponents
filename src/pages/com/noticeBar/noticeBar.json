@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "i-notice-bar": "../../../components/notice-bar/index"
+    }
+}

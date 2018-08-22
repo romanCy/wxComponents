@@ -1,0 +1,5 @@
+<!--pages/com/noticeBar/noticeBar.wxml-->
+<text>pages/com/noticeBar/noticeBar.wxml</text>
+ <i-notice-bar icon="systemprompt" loop speed="2000">
+        2018年世界杯,将于6
+    </i-notice-bar>

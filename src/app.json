@@ -10,7 +10,8 @@
     "pages/com/tabs/tabs",
     "pages/com/headToast/headToast",
     "pages/com/rate/rate",
-    "pages/com/activeSwiper/activeSwiper"
+    "pages/com/activeSwiper/activeSwiper",
+    "pages/com/noticeBar/noticeBar"
   ],
   "window": {
     "backgroundTextStyle": "light",

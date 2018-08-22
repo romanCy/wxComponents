@@ -27,8 +27,9 @@ Page({
 
   },
   timePicker: function () {
+    console.log(app)
     wx.navigateTo({
-      url: '../com/timePicker/timePicker'
+      url: '/pages/com/timePicker/timePicker'
     })
   },
   leftSwiper: function () {
@@ -84,6 +85,11 @@ Page({
   goRate:function () {
     wx.navigateTo({
       url: '../com/rate/rate'
+    })
+  },
+  goNotice(){
+    wx.navigateTo({
+      url: '../com/noticeBar/noticeBar'
     })
   }
 })
