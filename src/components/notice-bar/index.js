@@ -35,13 +35,17 @@ Component({
         }
     },
 
+    
     data: {
+        titleIndex:0,
         show: true,
         wrapWidth: 0,
         width: 0,
         duration: 0,
         animation: null,
         timer: null,
+        arr:['wasdkmwejkr','jkejnfadklakl'],
+        titleMsg:''
     },
     detached() {
         this.destroyTimer();
@@ -54,6 +58,7 @@ Component({
 
     methods: {
         initAnimation() {
+            console.log('initAnimation')
             wx.createSelectorQuery().in(this).select('.i-noticebar-content-wrap').boundingClientRect((wrapRect) => {
                 wx.createSelectorQuery().in(this).select('.i-noticebar-content').boundingClientRect((rect) => {
                     const duration = rect.width / 40 * this.data.speed;
@@ -74,6 +79,11 @@ Component({
             }).exec();
         },
         startAnimation() {
+            let self=this;
+            
+            
+            console.log('startAnimation')
+            console.log(this.data.duration)
             //reset
             if (this.data.animation.option.transition.duration !== 0) {
                 this.data.animation.option.transition.duration = 0;
@@ -90,11 +100,25 @@ Component({
                 });
             }, 100);
             const timer = setTimeout(() => {
+
+                if(this.data.titleIndex+1===self.data.arr.length){
+                    this.handleClose()
+                    return false;
+                }
                 this.startAnimation();
+                this.setData({
+                    titleIndex:this.data.titleIndex+1
+                })
+                console.log(this.data.titleIndex)
+                this.setData({
+                    titleMsg:this.data.arr[self.data.titleIndex]
+                })
+
             }, this.data.duration);
             this.setData({
                 timer,
             });
+        
         },
         destroyTimer() {
             if (this.data.timer) {
@@ -102,6 +126,7 @@ Component({
             }
         },
         handleClose() {
+            console.log('handleClose')
             this.destroyTimer();
             this.setData({
                 show: false,
