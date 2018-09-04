@@ -1,0 +1,2 @@
+<!--pages/com/activeSwiper/activeSwiper.wxml-->
+<activeSwiper swiper-data="{{swiperData}}" />

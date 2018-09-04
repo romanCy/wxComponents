@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {}
+=======
+{
+  "usingComponents":{
+    "timePicker":"../../../components/timePicker/timePicker"
+  }
+}
+>>>>>>> hehe

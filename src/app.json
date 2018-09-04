@@ -2,7 +2,20 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+<<<<<<< HEAD
     "pages/com/timePicker/timePicker"
+=======
+    "pages/com/timePicker/timePicker",
+    "pages/com/leftSwiper/leftSwiper",
+    "pages/com/modal/modal",
+    "pages/com/keyboard/keyboard",
+    "pages/com/upMenu/upMenu",
+    "pages/com/tabs/tabs",
+    "pages/com/headToast/headToast",
+    "pages/com/rate/rate",
+    "pages/com/activeSwiper/activeSwiper",
+    "pages/com/noticeBar/noticeBar"
+>>>>>>> hehe
   ],
   "window": {
     "backgroundTextStyle": "light",

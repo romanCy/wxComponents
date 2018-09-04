@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "headToast":"../../../components/headToast/headToast"
+  }
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // pages/com/timePicker.js
 Page({
 
@@ -63,4 +64,95 @@ Page({
   onShareAppMessage: function () {
   
   }
+=======
+// pages/com/timePicker/timePicker.js
+let now=new Date();
+Page({
+
+    /**
+     * 页面的初始数据
+     */
+    data: {
+        timePickerData: {},
+        showTime: {
+            year: now.getFullYear(),
+            month: +now.getMonth()+1,
+            day:now.getDate()
+        }
+
+    },
+
+    /**
+     * 生命周期函数--监听页面加载
+     */
+    onLoad: function (options) {
+
+    },
+
+    /**
+     * 生命周期函数--监听页面初次渲染完成
+     */
+    onReady: function () {
+
+    },
+
+    /**
+     * 生命周期函数--监听页面显示
+     */
+    onShow: function () {
+    },
+
+    /**
+     * 生命周期函数--监听页面隐藏
+     */
+    onHide: function () {
+
+    },
+
+    /**
+     * 生命周期函数--监听页面卸载
+     */
+    onUnload: function () {
+
+    },
+
+    /**
+     * 页面相关事件处理函数--监听用户下拉动作
+     */
+    onPullDownRefresh: function () {
+
+    },
+
+    /**
+     * 页面上拉触底事件的处理函数
+     */
+    onReachBottom: function () {
+
+    },
+
+    /**
+     * 用户点击右上角分享
+     */
+    onShareAppMessage: function () {
+
+    },
+    select: function () {
+        let self = this;
+        self.setData({
+            timePickerData: {
+                isShow: true,
+                year: self.data.showTime.year,
+                month: self.data.showTime.month,
+                day: self.data.showTime.day
+            }
+        });
+        const component = self.selectComponent('#timePicker');
+        component.setTimeData();
+    },
+    sure: function (op) {
+        this.setData({
+            showTime:op.detail
+        })
+    }
+>>>>>>> hehe
 })

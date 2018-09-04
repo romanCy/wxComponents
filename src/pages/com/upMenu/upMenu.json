@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "upMenu":"../../../components/upMenu/upMenu"
+  }
+}

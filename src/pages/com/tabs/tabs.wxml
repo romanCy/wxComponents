@@ -1,0 +1,16 @@
+<!--pages/com/tabs/tabs.wxml-->
+<tabs tab-data="{{tabData}}" />
+
+<view class="inputWrap">
+    添加新项<input type="text" bindinput="newInput" value="{{VD}}" />
+    <button catchtap="sure">确定</button>
+    <button catchtap="deletei">delete</button>
+    开启滑动 <switch checked bindchange="switch2Change" bindchange="sChange"/>
+    <radio-group class="radio-group" bindchange="radioChange">
+            <radio value="left" checked="{{true}}"/>left
+            <radio value="center" checked="{{false}}"/>center
+            <radio value="right" checked="{{right}}"/>right
+    </radio-group>
+</view>
+
+

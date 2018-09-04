@@ -1,0 +1,9 @@
+<!--components/upMenu/upMenu.wxml-->
+<view class="layer {{upmenuData.isShow ? 'wuli-animate--fade-in':'wuli-animate--fade-out'}}" wx:if="{{isShow}}" catchtouchmove="nofn" >
+    <view class="wrap {{upmenuData.isShow?'wuli-animate--slide-in-up':'wuli-animate--slide-out-down'}}">
+        <view class="content">
+            <view class="menuitem cb" wx:for="{{upmenuData.list}}" catchtap="_tap" data-id="{{item.id}}">{{item.msg}}</view>
+        </view>
+        <view class="cancel cr" catchtap="cancel">取消</view>
+    </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="layer {{keyData.isShow?'wuli-animate--fade-in':'wuli-animate--fade-out'}}" wx:if="{{keyData.isShow}}" >
+    <view class="wrap {{keyData.isShow?'wuli-animate--slide-in-up':'wuli-animate--slide-in-down'}}">
+        <view class="title">{{keyData.title}}</view>
+        <view class="numWrap">
+            <view class="num" wx:for="{{numCount}}">
+                <block wx:if="{{item!==''}}">
+                    <view class="di"></view>
+                </block>
+            </view>
+        </view>
+        <view class="textmsg">安全键盘</view>
+        <view class="keyWrap">
+            <view class="key" catchtap="keydown" wx:for="{{list[keyData.type]}}" wx:for-index="idx" wx:if="{{idx!=9}}" data-num="{{item}}">
+                {{item}}
+            </view>
+        </view>
+        <view class="fot">
+            <view class="cancel" catchtap="close">取消</view>
+            <view class="key" catchtap="keydown" data-num="{{list[keyData.type][9]}}">{{list[keyData.type][9]}}</view>
+            <view class="back" catchtap="back">退格</view>
+        </view>
+    </view>
+</view>

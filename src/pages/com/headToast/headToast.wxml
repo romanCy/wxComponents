@@ -1,0 +1,3 @@
+<!--pages/com/headToast.wxml-->
+<headToast toast-data="{{toastData}}" />
+<button  catchtap="show">show</button>

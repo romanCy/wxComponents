@@ -1,0 +1,10 @@
+/* pages/com/headToast.wxss */
+button{
+    position: relative;
+    top: 200rpx;
+}
+.coloooor{
+    background: red;
+    color: #fff;
+    font-size: 20rpx;
+}

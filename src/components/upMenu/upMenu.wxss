@@ -1,0 +1,51 @@
+/* components/upMenu/upMenu.wxss */
+@import "../../app.wxss";
+
+.layer {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1502
+}
+.wrap{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+    width: 720rpx;
+    border-radius: 16rpx;
+    overflow: hidden;
+    background: #f1f2f3;
+}
+.menuitem{
+    width: 100%;
+    height: 112rpx;
+    line-height: 112rpx;
+    text-align: center;
+    font-size: 42rpx;
+}
+.cancel{
+    margin: 16rpx 0;
+    width: 720rpx;
+    height: 112rpx;
+    line-height: 112rpx;
+    background: #fff;
+    text-align: center;
+    border-radius: 16rpx;
+    font-size: 42rpx;
+}
+.cb{
+    color: #007aff;
+}
+.cr{
+    color:#ff3b30;
+}
