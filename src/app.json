@@ -11,7 +11,9 @@
     "pages/com/headToast/headToast",
     "pages/com/rate/rate",
     "pages/com/activeSwiper/activeSwiper",
-    "pages/com/noticeBar/noticeBar"
+    "pages/com/noticeBar/noticeBar",
+    "pages/com/nine/nine",
+    "pages/com/roundLuck/roundLuck"
   ],
   "window": {
     "backgroundTextStyle": "light",

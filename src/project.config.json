@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wx6295cb85f7911848",
-	"projectname": "src",
+	"projectname": "%E7%BB%84%E4%BB%B6cy",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -21,13 +21,29 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "jiugongge",
+					"pathName": "pages/com/nine/nine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "jiugongge",
+					"pathName": "pages/com/roundLuck/roundLuck"
+				}
+			]
 		}
 	}
 }
