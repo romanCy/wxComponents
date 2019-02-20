@@ -1,0 +1,14 @@
+<view class='wrap'>
+  <view class='content' animation="{{animationData}}">
+    <view>1.qwiuehqwjdlqialjnd.</view>
+    <view>2.qeiopurhnfa,hfbqdlkjahkb</view>
+    <view>3.jahbwlfbhdn,zvhbalf</view>
+    <view>4.erghbafkbvczxchalh</view>
+    <view>1.qwiuehqwjdlqialjnd.</view>
+    <view>2.qeiopurhnfa,hfbqdlkjahkb</view>
+    <view>3.jahbwlfbhdn,zvhbalf</view>
+    <view>4.erghbafkbvczxchalh</view>
+    
+  </view>
+</view>
+<view catchtap='go'>dong</view>

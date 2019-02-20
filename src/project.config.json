@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wx6295cb85f7911848",
-	"projectname": "%E7%BB%84%E4%BB%B6cy",
+	"projectname": "cyGitComWx",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -30,18 +30,24 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
+					"name": "jiugongge",
+					"pathName": "pages/com/sxNotice/sxNotice",
+					"query": ""
+				},
+				{
+					"id": 1,
 					"name": "jiugongge",
 					"pathName": "pages/com/nine/nine",
 					"query": ""
 				},
 				{
 					"id": -1,
-					"name": "jiugongge",
-					"pathName": "pages/com/roundLuck/roundLuck"
+					"name": "picker",
+					"pathName": "pages/com/picker/picker"
 				}
 			]
 		}

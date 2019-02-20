@@ -1,0 +1,14 @@
+<!--pages/com/picker/picker.wxml-->
+
+<view class="section__title">多列选择器</view>
+<picker
+        mode="multiSelector"
+        bindcolumnchange="bindMultiPickerColumnChange"
+        bindchange="bindchange"
+        value="{{multiIndex}}"
+        range="{{multiArray}}"
+>
+  <view class="picker">
+    当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+  </view>
+</picker>

@@ -13,7 +13,9 @@
     "pages/com/activeSwiper/activeSwiper",
     "pages/com/noticeBar/noticeBar",
     "pages/com/nine/nine",
-    "pages/com/roundLuck/roundLuck"
+    "pages/com/roundLuck/roundLuck",
+    "pages/com/sxNotice/sxNotice",
+    "pages/com/picker/picker"
   ],
   "window": {
     "backgroundTextStyle": "light",

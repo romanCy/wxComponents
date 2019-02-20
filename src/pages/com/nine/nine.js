@@ -80,7 +80,7 @@ Page({
       index++;
     }, intime);
 
-    //模拟网络请求时间  设为两秒
+    // 模拟网络请求时间  设为两秒
     var stoptime = 2000;
     setTimeout(function () {
       e.stop(6);
@@ -88,7 +88,7 @@ Page({
 
   },
 
-  //也可以写成点击按钮停止抽奖
+  // 也可以写成点击按钮停止抽奖
   // clickStop:function(){
   //   var stoptime = 2000;
   //   setTimeout(function () {
@@ -226,7 +226,7 @@ Page({
         color: e.data.color,
       })
       index++;
-    }, 1000);
+    }, 1500);
     // }  
   }
 })
